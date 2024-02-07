@@ -12,7 +12,7 @@ services:
       resources:
         limits:
           cpus: "0.18"
-          memory: "20MB"
+          memory: "30MB"
 
   api01: &api
     image: gmorum/rinha-2024q1:ktor-mongo-v1
@@ -27,7 +27,7 @@ services:
       resources:
         limits:
           cpus: "0.52"
-          memory: "180MB"
+          memory: "160MB"
 
   api02:
     <<: *api
@@ -43,9 +43,9 @@ services:
     image: mongo:7.0.3
     ports:
       - "27017:27017"
-    command: --quiet --logpath /dev/null --wiredTigerJournalCompressor none --wiredTigerCollectionBlockCompressor none --wiredTigerIndexPrefixCompression false
+    command: --quiet --logpath /dev/null
     deploy:
       resources:
         limits:
           cpus: "0.28"
-          memory: "170MB"
+          memory: "200MB"
