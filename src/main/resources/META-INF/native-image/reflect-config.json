@@ -1,0 +1,89 @@
+[
+  {
+    "name": "kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+    "allDeclaredConstructors":true
+  },
+  {
+    "name": "kotlin.KotlinVersion",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name": "kotlin.KotlinVersion[]"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion"
+  },
+  {
+    "name": "kotlin.KotlinVersion$Companion[]"
+  },
+  {
+    "name": "kotlin.internal.jdk8.JDK8PlatformImplementations",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+  {
+    "name": "gmrms.clientes.Cliente",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true,
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"gmrms.clientes.Cliente$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name": "gmrms.clientes.Saldo",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true,
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"gmrms.clientes.Saldo$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name": "gmrms.clientes.Transacao",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true,
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"gmrms.clientes.Transacao$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name": "gmrms.clientes.SaldoExtrato",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true,
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"gmrms.clientes.SaldoExtrato$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  },
+  {
+    "name": "gmrms.clientes.Extrato",
+    "allPublicMethods": true,
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true,
+    "fields":[{"name":"Companion"}]
+  },
+  {
+    "name":"gmrms.clientes.Extrato$Companion",
+    "methods":[{"name":"serializer","parameterTypes":[] }]
+  }
+]
